@@ -1,0 +1,98 @@
+#maquillajes{
+    width: 200px;
+    margin: 20px;
+}
+.textoMaquillaje{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.facialYCorporal{
+    width: 200px;  
+}
+div{
+    display: grid;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+.Servicios{
+    display: block;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
+#Estudios{
+    display: block;
+}
+label, input{
+    display: block;
+    font-family: 'ABeeZee', sans-serif;
+}
+#Whatsapp{
+    height: 50px;
+    vertical-align: middle;
+}
+#Instagram{
+    width: 50px;
+    vertical-align: middle;
+}
+#Facebook{
+    width: 50px;
+    vertical-align: middle;
+}
+td{
+   padding-left: 20px; 
+   padding-right: 20px;
+   font-family: 'ABeeZee', sans-serif;
+}
+.imagenes{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h1{
+    font-family: 'Style Script', cursive;
+}
+h3{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+.mimos{
+    display: block;
+}
+#ImagenesMimos{
+    width: 200px;
+}
+
+
+#ImagenesMaquillaje{
+    display: grid;
+}
+.carousel div{
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .carousel div{
+        width: 700px;
+    }
+}
+@media (max-width: 992px) {
+    .carousel div{
+        width: 500px;
+    }
+}
+
+#MapaUbicacion{
+    display: flex;
+    justify-content: center;
+}
+
+.alert{
+    background-color: rgb(217, 153, 185);
+    font-size: 30px;
+}
+.TituloPerla{
+    background-color: rgb(217, 153, 185);
+}

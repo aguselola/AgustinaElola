@@ -1,0 +1,30 @@
+h2{
+    color: rgb(217, 153, 185);
+    
+    font-family: 'Style Script', cursive;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+}
+body{
+    background-color: rgb(192, 232, 249);
+}
+
+#index{
+    display: inline;
+    margin-right: 30px;
+}
+#logos{
+    width: 20px;
+}
+.Titulo{
+    margin-left: 150px;
+}
+
+.navbar .navbar-link:hover{
+    color: rgb(217, 153, 185);
+}
