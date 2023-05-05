@@ -1,0 +1,184 @@
+h2 {
+  color: rgb(217, 153, 185);
+  font-family: "Style Script", cursive;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "ABeeZee", sans-serif;
+}
+
+body {
+  background-color: rgb(192, 232, 249);
+}
+
+#index {
+  display: inline;
+  margin-right: 30px;
+}
+
+#logos {
+  width: 20px;
+}
+
+.Titulo {
+  margin-left: 150px;
+}
+
+.facialYCorporal {
+  width: 200px;
+}
+
+div {
+  display: grid;
+  text-align: center;
+  font-family: "ABeeZee", sans-serif;
+}
+
+.Servicios {
+  display: block;
+}
+
+iframe {
+  width: 500px;
+  height: 500px;
+}
+
+#Estudios {
+  display: block;
+}
+
+label, input {
+  display: block;
+  font-family: "ABeeZee", sans-serif;
+}
+
+#Whatsapp {
+  height: 50px;
+  vertical-align: middle;
+}
+
+#Instagram {
+  width: 50px;
+  vertical-align: middle;
+}
+
+#Facebook {
+  width: 50px;
+  vertical-align: middle;
+}
+
+td {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "ABeeZee", sans-serif;
+}
+
+.imagenes {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  font-family: "Style Script", cursive;
+}
+
+h3 {
+  font-family: "ABeeZee", sans-serif;
+}
+
+#depilacionLaser {
+  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+#cuponeras {
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "ABeeZee", sans-serif;
+}
+
+.SHR {
+  height: 200px;
+  align-self: center;
+  justify-self: center;
+}
+
+.equipo {
+  height: 200px;
+  align-self: center;
+  justify-self: center;
+}
+
+.mimos {
+  display: block;
+}
+
+#ImagenesMimos {
+  width: 200px;
+}
+
+#maquillajes {
+  width: 200px;
+  margin: 20px;
+}
+
+.textoMaquillaje {
+  text-align: center;
+  font-family: "ABeeZee", sans-serif;
+}
+
+#ImagenContacto {
+  width: 250px;
+  margin: 100px;
+  vertical-align: middle;
+}
+
+.TextoContacto {
+  font-size: 35px;
+}
+
+#RedesContacto {
+  display: block;
+}
+
+#ImagenesMaquillaje {
+  display: grid;
+}
+
+.carousel div {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  .carousel div {
+    width: 700px;
+  }
+}
+@media (max-width: 992px) {
+  .carousel div {
+    width: 500px;
+  }
+}
+#MapaUbicacion {
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  background-color: rgb(217, 153, 185);
+  font-size: 30px;
+}
+
+.TituloPerla {
+  background-color: rgb(217, 153, 185);
+}
+
+/*# sourceMappingURL=styles.css.map */
