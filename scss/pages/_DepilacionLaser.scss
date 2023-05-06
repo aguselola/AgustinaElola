@@ -1,0 +1,52 @@
+#depilacionLaser{
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+#cuponeras{
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.SHR{
+    height: 200px;
+}
+
+.textoDepilacion{
+    width: 300px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .textoDepilacion{
+        width: 500px;
+    }
+}
+
+@media (min-width: 940px) {
+    .textoDepilacion{
+        width: 768px;
+    }
+}
+
+@keyframes cuponera_efect {
+    0% {background-color: $color-principal; color: black;}
+    100% {background-color: $color-terciario; color: black}
+}
+
+.alert {
+    background-color: $color-principal;
+    font-size: 30px;
+    animation-name: cuponera_efect;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+}
+

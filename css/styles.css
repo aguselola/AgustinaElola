@@ -1,54 +1,27 @@
-header .navbar-toggler:hover {
-  background-color: rgb(217, 153, 185);
-}
-header .navbar-nav .nav-item .nav-link:hover {
-  color: rgb(255, 233, 243);
+/*colors*/
+.Servicios {
+  display: block;
 }
 
-body {
-  background-color: rgb(132, 92, 110);
+iframe {
+  width: 500px;
+  height: 500px;
 }
 
-#index {
-  display: inline;
-  margin-right: 30px;
+#Estudios {
+  display: block;
 }
 
-.Titulo {
-  margin-left: 150px;
+#MapaUbicacion {
+  display: flex;
+  justify-content: center;
 }
 
-.navbar .navbar-link:hover {
-  color: rgb(217, 153, 185);
+.facialYCorporal {
+  width: 200px;
 }
 
-.card {
-  background-color: rgb(255, 233, 243);
-}
-
-.btn {
-  background-color: rgb(255, 233, 243);
-  color: black;
-  border-color: black;
-  border-width: 2px;
-}
-
-footer #Whatsapp {
-  height: 50px;
-  vertical-align: middle;
-  margin-bottom: 20px;
-}
-footer #Instagram {
-  width: 50px;
-  vertical-align: middle;
-  margin-bottom: 20px;
-}
-footer #Facebook {
-  width: 50px;
-  vertical-align: middle;
-  margin-bottom: 20px;
-}
-
+/*Carrousel*/
 .Carrousel-maquillaje {
   display: flex;
   width: 100%;
@@ -75,39 +48,12 @@ footer #Facebook {
   font-size: 17px;
 }
 
+/*Responsive*/
 @media (min-width: 768px) {
   .textoMaquillaje {
     width: 768px;
   }
 }
-.facialYCorporal {
-  width: 200px;
-}
-
-div {
-  display: grid;
-  text-align: center;
-  font-family: "ABeeZee", sans-serif;
-}
-
-.Servicios {
-  display: block;
-}
-
-iframe {
-  width: 500px;
-  height: 500px;
-}
-
-#Estudios {
-  display: block;
-}
-
-label, input {
-  display: block;
-  font-family: "ABeeZee", sans-serif;
-}
-
 td {
   padding-left: 20px;
   padding-right: 20px;
@@ -119,44 +65,8 @@ td {
   margin-right: 40px;
 }
 
-h1 {
-  font-family: "Style Script", cursive;
-}
-
-h3 {
-  font-family: "ABeeZee", sans-serif;
-}
-
 #ImagenesMimos {
   width: 200px;
-}
-
-#ImagenesMaquillaje {
-  display: grid;
-}
-
-.carousel div {
-  width: 300px;
-}
-
-@media (max-width: 768px) {
-  .carousel div {
-    width: 700px;
-  }
-}
-@media (max-width: 992px) {
-  .carousel div {
-    width: 500px;
-  }
-}
-#MapaUbicacion {
-  display: flex;
-  justify-content: center;
-}
-
-.alert {
-  background-color: rgb(217, 153, 185);
-  font-size: 30px;
 }
 
 #depilacionLaser {
@@ -177,14 +87,41 @@ p {
 
 .SHR {
   height: 200px;
-  align-self: center;
-  justify-self: center;
 }
 
-.equipo {
-  height: 200px;
-  align-self: center;
-  justify-self: center;
+.textoDepilacion {
+  width: 300px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .textoDepilacion {
+    width: 500px;
+  }
+}
+@media (min-width: 940px) {
+  .textoDepilacion {
+    width: 768px;
+  }
+}
+@keyframes cuponera_efect {
+  0% {
+    background-color: rgb(104, 170, 209);
+    color: black;
+  }
+  100% {
+    background-color: rgb(136, 189, 219);
+    color: black;
+  }
+}
+.alert {
+  background-color: rgb(104, 170, 209);
+  font-size: 30px;
+  animation-name: cuponera_efect;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 
 #ImagenContacto {
@@ -201,10 +138,73 @@ p {
   display: block;
 }
 
+.Contacto-card {
+  background-color: rgb(104, 170, 209);
+  color: black;
+}
+
+/*header*/
+header .navbar-toggler:hover {
+  background-color: rgb(104, 170, 209);
+}
+header .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(136, 189, 219);
+}
+
+#logos {
+  width: 20px;
+}
+
+.TituloPerla {
+  background-color: rgb(104, 170, 209);
+}
+
+#index {
+  display: inline;
+  margin-right: 30px;
+}
+
+.Titulo {
+  margin-left: 150px;
+}
+
+.navbar .navbar-link:hover {
+  color: rgb(104, 170, 209);
+}
+
+/*Titulos*/
 h2 {
-  color: rgb(255, 233, 243);
+  color: rgb(136, 189, 219);
   font-family: "Style Script", cursive;
   display: inline;
+}
+
+h1 {
+  font-family: "Style Script", cursive;
+}
+
+h3 {
+  font-family: "ABeeZee", sans-serif;
+}
+
+/*Generales del body*/
+body {
+  background-color: rgb(202, 101, 147);
+}
+
+.card {
+  background-color: rgb(136, 189, 219);
+}
+
+div {
+  display: grid;
+  text-align: center;
+  font-family: "ABeeZee", sans-serif;
+}
+
+label, input {
+  display: block;
+  font-family: "ABeeZee", sans-serif;
 }
 
 a {
@@ -213,12 +213,28 @@ a {
   font-family: "ABeeZee", sans-serif;
 }
 
-#logos {
-  width: 20px;
+/*Form*/
+.btn {
+  background-color: rgb(136, 189, 219);
+  color: black;
+  border-color: black;
+  border-width: 2px;
 }
 
-.TituloPerla {
-  background-color: rgb(217, 153, 185);
+footer #Whatsapp {
+  height: 50px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+footer #Instagram {
+  width: 50px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+footer #Facebook {
+  width: 50px;
+  vertical-align: middle;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

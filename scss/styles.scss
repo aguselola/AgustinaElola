@@ -1,6 +1,7 @@
-@import "index";
-@import "FacialYCorporal";
-@import "Maquillaje";
-@import "DepilacionLaser";
-@import "Contacto";
-@import "header";
+@import "variables";
+@import "./pages/index";
+@import "./pages/FacialYCorporal";
+@import "./pages/Maquillaje";
+@import "./pages/DepilacionLaser";
+@import "./pages/Contacto";
+@import "generales";

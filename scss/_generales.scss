@@ -1,0 +1,105 @@
+/*header*/
+header{
+    .navbar-toggler:hover{
+        background-color: $color-principal;
+    }
+    .navbar-nav{
+        .nav-item{
+            .nav-link:hover{
+                color: $color-terciario;
+            }
+            
+        }
+    }
+}
+
+#logos {
+    width: 20px;
+}
+.TituloPerla{
+    background-color: $color-principal;
+}
+
+#index{
+    display: inline;
+    margin-right: 30px;
+}
+.Titulo{
+    margin-left: 150px;
+}
+.navbar .navbar-link:hover{
+    color: $color-principal;
+}
+
+
+/*Titulos*/
+h2 {
+    color: $color-terciario;
+    
+    font-family: 'Style Script', cursive;
+    display: inline;
+}
+
+h1{
+    font-family: 'Style Script', cursive;
+}
+
+h3{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+/*Generales del body*/
+
+body{
+    background-color: $color-secundario;
+}
+
+.card{
+    background-color: $color-terciario;
+}
+
+div{
+    display: grid;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+label, input{
+    display: block;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+/*Form*/
+.btn{
+    background-color: $color-terciario;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+footer{
+    #Whatsapp{
+        height: 50px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+    }
+    #Instagram{
+        width: 50px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+    }
+    #Facebook{
+        width: 50px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+    }
+}
