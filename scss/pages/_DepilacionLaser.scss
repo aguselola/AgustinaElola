@@ -23,17 +23,6 @@ p{
     text-align: center;
 }
 
-@media (min-width: 768px) {
-    .textoDepilacion{
-        width: 500px;
-    }
-}
-
-@media (min-width: 940px) {
-    .textoDepilacion{
-        width: 768px;
-    }
-}
 
 @keyframes cuponera_efect {
     0% {background-color: $color-principal; color: black;}
@@ -50,3 +39,14 @@ p{
     animation-delay: 0.5s;
 }
 
+@media (min-width: 768px) {
+    .textoDepilacion{
+        width: 500px;
+    }
+}
+
+@media (min-width: 940px) {
+    .textoDepilacion{
+        width: 768px;
+    }
+}

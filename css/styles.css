@@ -48,12 +48,6 @@ iframe {
   font-size: 17px;
 }
 
-/*Responsive*/
-@media (min-width: 768px) {
-  .textoMaquillaje {
-    width: 768px;
-  }
-}
 td {
   padding-left: 20px;
   padding-right: 20px;
@@ -69,6 +63,12 @@ td {
   width: 200px;
 }
 
+/*Responsive*/
+@media (min-width: 768px) {
+  .textoMaquillaje {
+    width: 768px;
+  }
+}
 #depilacionLaser {
   width: 200px;
   display: grid;
@@ -94,16 +94,6 @@ p {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .textoDepilacion {
-    width: 500px;
-  }
-}
-@media (min-width: 940px) {
-  .textoDepilacion {
-    width: 768px;
-  }
-}
 @keyframes cuponera_efect {
   0% {
     background-color: rgb(104, 170, 209);
@@ -124,6 +114,16 @@ p {
   animation-delay: 0.5s;
 }
 
+@media (min-width: 768px) {
+  .textoDepilacion {
+    width: 500px;
+  }
+}
+@media (min-width: 940px) {
+  .textoDepilacion {
+    width: 768px;
+  }
+}
 #ImagenContacto {
   width: 250px;
   margin: 100px;

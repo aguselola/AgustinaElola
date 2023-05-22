@@ -27,12 +27,6 @@
     font-size: 17px;
 }
 
-/*Responsive*/
-@media (min-width: 768px) {
-    .textoMaquillaje{
-        width: 768px;
-    }
-}
 
 
 td{
@@ -50,6 +44,12 @@ td{
     width: 200px;
 }
 
+/*Responsive*/
+@media (min-width: 768px) {
+    .textoMaquillaje{
+        width: 768px;
+    }
+}
 
 
 
